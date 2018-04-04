@@ -1,7 +1,12 @@
 {
   "name": "swift-login-api",
   "description": "login backend module",
-  "version": "0.0.1",  
+  "version": "0.0.1",
+	"scripts": {
+		"start": "node app.js",
+		"stop": "forever stop app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	  },  
   "dependencies": {
     "async": "^1.5.2",
     "body-parser": "^1.15.0",
