@@ -1,11 +1,7 @@
 {
   "name": "swift-login-api",
   "description": "login backend module",
-  "version": "0.0.1",
-  "engines": {
-    "node": "0.10.24",
-    "npm": "2.14.0"
-  },
+  "version": "0.0.1",  
   "dependencies": {
     "async": "^1.5.2",
     "body-parser": "^1.15.0",
